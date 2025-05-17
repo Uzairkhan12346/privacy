@@ -1,15 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "privacy.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/privacy.html"
-    }
+  "rewrites": [
+    { "source": "/privacy", "destination": "/privacy.html" }
   ]
 }
