@@ -1,5 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/privacy", "destination": "/privacy.html" }
+  "redirects": [
+    { "source": "/", "destination": "/privacy.html", "permanent": true }
   ]
 }
